@@ -114,7 +114,7 @@ async def redeem(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         else:
             response = f"Invalid or expired key buy from OWNER- @VirtualVenture..."
     else:
-        response = f"Usage: /redeem <key> if you don't  have  buy from  @VirtualVenture}..."
+        response = f"Usage: /redeem <key> if you don't  have  buy from  @VirtualVenture..."
 
     await update.message.reply_text(response)
 
